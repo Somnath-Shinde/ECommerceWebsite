@@ -1,0 +1,427 @@
+/*@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+@import url('https://fonts.gooogleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.parallax, .parallax1{
+  background-image: url("images/vivo-logo.jpg");
+  height: max-content;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-title{
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  color: #FFD700;
+  padding: 50px;
+  font-variant: small-caps;
+  font-size: 100px;
+  font-family:'Josefin Sans', sans-serif;
+  letter-spacing: 20px;
+
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu{
+  background: #031321;
+  text-align: center;
+}
+
+.menu-ul{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+.menu-ul li{
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25px;
+}
+
+.a-menu, .a-links{
+  text-decoration: none;
+  color: white;
+}
+
+.menu-ul li:hover{
+  background: #DAA520;
+  transform: scale(1.1);
+}
+
+
+i{
+  font-size: 10px;
+  margin: 0 10px 0 0;
+}
+
+button{
+  
+  background: transparent;
+  border: none;
+  outline: none;
+
+}
+
+.container, .deals-container{
+  margin: 50px 50px 50px 5%;
+  width: 90%;
+  text-align: center;
+}
+
+.categories, .items{
+  width: max-content;
+  margin: 25px;
+  display: inline-block;
+}
+
+.categories:hover, .items:hover{
+  box-shadow: 0 0 10px 3px #FFD700;
+}
+
+.item-image{
+  height: 270px;
+  width: 300px;
+
+  padding: 10px;
+
+}
+.item-image2{
+  height: 120px;
+  width: 200px;
+  padding: 10px;
+
+}
+
+.image-title{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.image-title2{
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+
+.title{
+   padding: 50px;
+   text-align: center;
+   font-size: 50px;
+   font-weight: bold;
+   letter-spacing: 10px;
+   color: white;
+   background: rgba(0,0,0,0.5);
+}
+
+.deal{
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 20px;
+  max-width: 20%;
+  background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+  
+}
+
+.deal .coupon-btn{
+  border: 1px solid white;
+  color: #031321;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.deal .coupon-btn:hover{
+  box-shadow: 0 0 10px 5px #DAA520 inset;
+}
+
+.images{
+   display: inline-block;
+}
+.item-image-size{
+  height: 500px;
+  width: 700px;
+  padding: 5px;
+}
+.item-select{
+  margin: 10px 0 0 0;
+}
+
+.description{
+  margin: 20px;
+  min-height: 100px;
+}
+
+
+
+
+
+.parallax1{
+  background-image: url("Images/fruits.jpg");
+}
+
+.footer{
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-links{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 30%;
+}
+
+.quick-links ul{
+  padding: 0;
+}
+
+.quick-links li{
+  list-style: none;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.a-links:hover{
+  color: #DAA520;
+}
+
+.copyrights{
+  font-size: 16px;
+  font-family: verdana, arial, helvecita, sans-serif;
+  text-align: center;
+  margin: 15px;
+}
+
+
+.shop-item {
+ 
+    margin: 10px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+
+}
+
+
+.shop-item-image {
+ 
+    height: 250px;
+  width: 300px;
+  padding: 5px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+.shop-items {
+    display: flex;
+}
+
+
+.buynow-btn{
+  border: 1px solid #FFD700;
+  background: #DAA520;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #031321;
+}
+
+.buynow-btn:hover{
+  border: 1px solid #FFD700;
+  box-shadow: 0 0 10px 5px #FFD700 inset;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}

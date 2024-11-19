@@ -1,2 +1,2 @@
-# ECommerceWebsite
-this is the e-commerce website Sam Communication
+# E-Commerce
+E-commerce website Sam communication
